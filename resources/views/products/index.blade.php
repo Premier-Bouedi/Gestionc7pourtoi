@@ -207,9 +207,9 @@
                     @csrf
                     <div class="modal-body px-4 py-4">
                         <div class="mb-3">
-                            <label for="create_identifiant" class="form-label small fw-semibold text-secondary">Identifiant unique (ID Firebase)</label>
-                            <input type="text" class="form-control rounded-3" id="create_identifiant" name="identifiant" placeholder="Ex: sac-croco-noir (sans espaces)" required>
-                            <div class="form-text text-muted small">Cet ID sera utilisé comme clé du document sur Firebase.</div>
+                            <label for="create_code" class="form-label small fw-semibold text-secondary">Code produit (ID Firebase)</label>
+                            <input type="text" class="form-control rounded-3" id="create_code" name="code" placeholder="Ex: sac-croco-noir" required>
+                            <div class="form-text text-muted small">Utilisez des tirets, pas d'espaces. Ce code sera l'ID du document sur Firebase.</div>
                         </div>
                         <div class="mb-3">
                             <label for="create_model" class="form-label small fw-semibold text-secondary">Catégorie</label>
